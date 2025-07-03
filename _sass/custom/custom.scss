@@ -1,0 +1,23 @@
+.staff-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding-left: 0;
+}
+
+.staff-card {
+  width: 220px;
+  text-align: center;
+  font-size: 0.95rem;
+  list-style: none;
+}
+
+.staff-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}

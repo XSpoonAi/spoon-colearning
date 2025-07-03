@@ -1,8 +1,20 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Co-Learning
+description: Course on Large Language Models
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+# enable search
+search_enabled: true
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+collections:
+  staffers:
+    output: false
+
+sass:
+  custom_dir: _sass/custom
+
+# 设置主页默认布局
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
