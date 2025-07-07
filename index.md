@@ -57,7 +57,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     </tr>
   </thead>
   <tbody>
-    {% assign lectures = site.data.syllabus | sort: 'date' %}
+    {% assign lectures = site.data.syllabus | values | sort: 'date' %}
     {% for file in site.static_files %}
       {% if file.path contains '_data/syllabus/' and file.extname == '.yml' %}
         {% assign guest_id = file.basename | split: '.' | first %}
