@@ -1,0 +1,11 @@
+date: July 15th
+title: LLM Inference and Reasoning
+speaker: Zhou Zijian, NUS
+materials:
+  - text: Recording
+    external_url: https://example.com/recording
+  - text: Slides
+    external_url: https://example.com/slides
+quiz:
+  - Implement guided decoding
+  - Build a custom reasoning model without fine-tuning
