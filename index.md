@@ -52,36 +52,44 @@ We will also examine the **limitations and risks** of current LLM agents — suc
   <thead>
     <tr>
       <th>Date</th>
-      <th>Guest Lecture</th>
+      <th>Guest Lecture<br>(4:00PM–6:00PM)</th>
       <th>Quiz</th>
     </tr>
   </thead>
   <tbody>
-    {% for file in site.static_files %}
-      {% if file.path contains '_data/syllabus/' and file.extname == '.yml' %}
-        {% assign guest_id = file.basename | split: '.' | first %}
-        {% assign lecture = site.data.syllabus[guest_id] %}
-        {% if lecture %}
-          <tr>
-            <td>{{ lecture.date }}</td>
-            <td>
-              <strong>{{ lecture.title }}</strong><br/>
-              {{ lecture.speaker }}<br/>
-              {% for m in lecture.materials %}
-                <a href="{{ m.external_url }}">{{ m.text }}</a>{% unless forloop.last %}, {% endunless %}
-              {% endfor %}
-            </td>
-            <td>
-              {% for q in lecture.quiz %}
-                - {{ q }}<br>
-              {% endfor %}
-            </td>
-          </tr>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+    <tr>
+      <td>July 15th</td>
+      <td>
+        <strong>LLM Inference and Reasoning</strong><br>
+        Zhou Zijian, NUS<br><br>
+
+        <strong>Inference:</strong><br>
+        - What are the inputs and outputs of an LLM model?<br>
+        - Difference between pre-filling and auto-regressive decoding<br>
+        - Auto-regressive decoding:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- How are tokens sampled based on output<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- What are top-k, top-p, temperature?<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- How does the LLM know when to stop?<br><br>
+
+        <strong>Reasoning:</strong><br>
+        - What is reasoning in its fundamental sense?<br>
+        - Why reasoning is important for LLM?<br>
+        - Two approaches of achieving reasoning:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Using a fine-tuned model<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- Prompting<br><br>
+
+        <strong>Materials:</strong><br>
+        <a href="https://example.com/recording">Recording</a>, 
+        <a href="https://example.com/slides">Slides</a>
+      </td>
+      <td>
+        - Implement guided decoding<br>
+        - Build a custom reasoning model without fine-tuning
+      </td>
+    </tr>
   </tbody>
 </table>
+
 
 
 
