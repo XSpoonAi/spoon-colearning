@@ -1,6 +1,12 @@
 title: Co-Learning
 description: Course on Large Language Models
 theme: just-the-docs
+baseurl: "/Co-Learning-Prototype" # 注意：这是你的 GitHub 仓库名，前面要加斜杠
+
+# 开启相对路径和隐藏侧边栏
+just_the_docs:
+  relative_links: true
+  show_sidebar: true
 
 # enable search
 search_enabled: true
@@ -12,7 +18,7 @@ collections:
 sass:
   custom_dir: _sass/custom
 
-# 设置主页默认布局
+# 设置默认布局
 defaults:
   - scope:
       path: ""
