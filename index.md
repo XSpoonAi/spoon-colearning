@@ -46,7 +46,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 {% endfor %}
 </div>
 
-## Syllabus
+## Schedule
 
 <table>
   <thead>
@@ -86,9 +86,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
   </tbody>
 </table>
 
-## Workshop
+##  
 
-*Collaborative learning Demoday & Hackathon coming soon*
-
-Build Agent or Multi-Agents by [SpoonOS](spoonai.io)  
+Build Agent or Multi-Agents by [SpoonOS](https://spoonai.io)  
 Follow on [X (Twitter)](https://x.com/SpoonOS_ai)
