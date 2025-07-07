@@ -13,7 +13,7 @@ search_enabled: true
 
 collections:
   staffers:
-    output: false
+    output: true
 
 sass:
   custom_dir: _sass/custom
