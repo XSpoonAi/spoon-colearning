@@ -52,7 +52,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
   <thead>
     <tr>
       <th>Date</th>
-      <th>Guest Lecture<br/>(4:00PM-6:00PM)</th>
+      <th>Guest Lecture</th>
       <th>Quiz</th>
     </tr>
   </thead>
