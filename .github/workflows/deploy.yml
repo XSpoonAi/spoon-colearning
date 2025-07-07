@@ -29,9 +29,10 @@ jobs:
       - name: Build site with Jekyll
         run: bundle exec jekyll build
 
-      - name: Upload pages artifact
-        uses: actions/upload-pages-artifact@v1  # ✅ 使用 v1
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: ./_site
 
   deploy:
