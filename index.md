@@ -52,7 +52,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
   <thead>
     <tr>
       <th>Date</th>
-      <th>Guest Lecture<br/>(4:00PM–6:00PM)</th>
+      <th>Guest Lecture<br/>(4:00PM-6:00PM)</th>
       <th>Quiz</th>
     </tr>
   </thead>
@@ -60,7 +60,8 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     {% assign lectures = site.data.syllabus | sort: 'date' %}
     {% for file in site.static_files %}
       {% if file.path contains '_data/syllabus/' and file.extname == '.yml' %}
-        {% assign lecture = site.data.syllabus[ file.basename | split: '.' | first ] %}
+        {% assign guest_id = file.basename | split: '.' | first %}
+        {% assign lecture = site.data.syllabus[guest_id] %}
         <tr>
           <td>{{ lecture.date }}</td>
           <td>
@@ -80,5 +81,6 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     {% endfor %}
   </tbody>
 </table>
+
 
 ## Workshop
