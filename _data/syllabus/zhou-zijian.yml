@@ -1,12 +1,28 @@
-zhou-zijian:
-  date: July 15th
-  title: LLM Inference and Reasoning
-  speaker: Zhou Zijian, NUS
-  materials:
-    - text: Recording
-      external_url: https://example.com/recording
-    - text: Slides
-      external_url: https://example.com/slides
-  quiz:
-    - Implement guided decoding
-    - Build a custom reasoning model without fine-tuning
+date: July 15th
+title: |
+  LLM Inference and Reasoning  
+  Zhou Zijian, NUS
+
+  <strong>Inference:</strong><br>
+  - What are the inputs and outputs of an LLM model?<br>
+  - Difference between pre-filling and auto-regressive decoding<br>
+  - Auto-regressive decoding:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;- How are tokens sampled based on output<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;- What are top-k, top-p, temperature?<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;- How does the LLM know when to stop?<br>
+
+  <strong>Reasoning:</strong><br>
+  - What is reasoning in its fundamental sense?<br>
+  - Why reasoning is important for LLM?<br>
+  - Two approaches of achieving reasoning:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;- Using a fine-tuned model<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;- Prompting<br>
+speaker: 
+materials:
+  - text: Recording
+    external_url: https://example.com/recording
+  - text: Slides
+    external_url: https://example.com/slides
+quiz:
+  - Implement guided decoding
+  - Build a custom reasoning model without fine-tuning
