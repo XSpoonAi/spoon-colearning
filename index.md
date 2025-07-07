@@ -57,30 +57,27 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     </tr>
   </thead>
   <tbody>
-    {% assign lectures = site.data.syllabus | values | sort: 'date' %}
-    {% for file in site.static_files %}
-      {% if file.path contains '_data/syllabus/' and file.extname == '.yml' %}
-        {% assign guest_id = file.basename | split: '.' | first %}
-        {% assign lecture = site.data.syllabus[guest_id] %}
-        <tr>
-          <td>{{ lecture.date }}</td>
-          <td>
-            <strong>{{ lecture.title }}</strong><br/>
-            {{ lecture.speaker }}<br/>
-            {% for m in lecture.materials %}
-              <a href="{{ m.url }}">{{ m.text }}</a>{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-          </td>
-          <td>
-            {% for q in lecture.quiz %}
-              - {{ q }}<br/>
-            {% endfor %}
-          </td>
-        </tr>
-      {% endif %}
+    {% assign lectures = site.data.syllabus | map: 'last' | sort: 'date' %}
+    {% for lecture in lectures %}
+      <tr>
+        <td>{{ lecture.date }}</td>
+        <td>
+          <strong>{{ lecture.title }}</strong><br/>
+          {{ lecture.speaker }}<br/>
+          {% for m in lecture.materials %}
+            <a href="{{ m.external_url }}">{{ m.text }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </td>
+        <td>
+          {% for q in lecture.quiz %}
+            - {{ q }}<br/>
+          {% endfor %}
+        </td>
+      </tr>
     {% endfor %}
   </tbody>
 </table>
+
 
 
 ## Workshop

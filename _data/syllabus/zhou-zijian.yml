@@ -1,4 +1,4 @@
-date: July 15th
+date: 2025-07-15
 title: LLM Inference and Reasoning
 speaker: Zhou Zijian, NUS
 materials:
@@ -9,3 +9,4 @@ materials:
 quiz:
   - Implement guided decoding
   - Build a custom reasoning model without fine-tuning
+
