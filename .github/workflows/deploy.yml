@@ -1,9 +1,9 @@
-# .github/workflows/deploy.yml
-name: Deploy Jekyll site to GitHub Pages
+name: Build and Deploy Jekyll site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main  # 或你的默认分支
 
 permissions:
   contents: read
@@ -14,7 +14,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Ruby
@@ -26,11 +26,11 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
-      - name: Build the site
+      - name: Build Jekyll site
         run: bundle exec jekyll build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4  # ✅ 最新版本
         with:
           path: ./_site
 
@@ -40,6 +40,10 @@ jobs:
     permissions:
       pages: write
       id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        id: deployment
+        uses: actions/deploy-pages@v4  # ✅ 也使用最新版本
