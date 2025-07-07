@@ -33,16 +33,52 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 ## Lecture Guests
 
 <div class="staff-grid">
-{% assign instructors = site.staffers | sort: 'index' %}
-{% for staffer in instructors %}
+{% assign featured_guests = site.staffers | where: "featured", true | sort: "index" %}
+{% for staffer in featured_guests %}
   <div class="staff-card">
-    <img src="{{ site.baseurl }}/{{ staffer.picture }}" alt="{{ staffer.name }}" />
-    <p><strong><a href="{{ staffer.url }}">{{ staffer.name }}</a></strong><br>
-    {{ staffer.role }}<br>
-    <em>{{ staffer.email }}</em><br>
-    {{ staffer.office_hours }}</p>
+    <img src="{{ staffer.picture }}" alt="{{ staffer.name }}" />
+    <p>
+      <strong><a href="{{ staffer.external_url }}" target="_blank">{{ staffer.name }}</a></strong><br>
+      {{ staffer.role }}<br>
+      <em>{{ staffer.email }}</em>
+    </p>
   </div>
 {% endfor %}
 </div>
+
+## Syllabus
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Guest Lecture<br/>(4:00PM–6:00PM)</th>
+      <th>Quiz</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign lectures = site.data.syllabus | sort: 'date' %}
+    {% for file in site.static_files %}
+      {% if file.path contains '_data/syllabus/' and file.extname == '.yml' %}
+        {% assign lecture = site.data.syllabus[ file.basename | split: '.' | first ] %}
+        <tr>
+          <td>{{ lecture.date }}</td>
+          <td>
+            <strong>{{ lecture.title }}</strong><br/>
+            {{ lecture.speaker }}<br/>
+            {% for m in lecture.materials %}
+              <a href="{{ m.url }}">{{ m.text }}</a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </td>
+          <td>
+            {% for q in lecture.quiz %}
+              - {{ q }}<br/>
+            {% endfor %}
+          </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
 
 ## Workshop

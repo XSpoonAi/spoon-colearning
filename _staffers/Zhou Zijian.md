@@ -2,7 +2,8 @@
 name: Zhou Zijian
 role: PhD in Computer Science at National University of Singapore
 index: 1
-picture: /assets/images/zhou-zijian.jpg
+picture: assets/images/zhou-zijian.jpg
 email: zhou_zijian@u.nus.edu
-url: https://bobbyzhouzijian.github.io/about/
+external_url: https://bobbyzhouzijian.github.io/about/
+featured: true
 ---
