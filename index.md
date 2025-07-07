@@ -52,13 +52,13 @@ We will also examine the **limitations and risks** of current LLM agents — suc
   <thead>
     <tr>
       <th>Date</th>
-      <th>Guest Lecture<br>(4:00PM–6:00PM)</th>
+      <th>Guest Lecture</th>
       <th>Quiz</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>July 15th</td>
+      <td>July 18th</td>
       <td>
         <strong>LLM Inference and Reasoning</strong><br>
         Zhou Zijian, NUS<br><br>
@@ -77,10 +77,6 @@ We will also examine the **limitations and risks** of current LLM agents — suc
         - Two approaches of achieving reasoning:<br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Using a fine-tuned model<br>
         &nbsp;&nbsp;&nbsp;&nbsp;- Prompting<br><br>
-
-        <strong>Materials:</strong><br>
-        <a href="https://example.com/recording">Recording</a>, 
-        <a href="https://example.com/slides">Slides</a>
       </td>
       <td>
         - Implement guided decoding<br>
@@ -90,8 +86,9 @@ We will also examine the **limitations and risks** of current LLM agents — suc
   </tbody>
 </table>
 
-
-
-
-
 ## Workshop
+
+*Collaborative learning Demoday (setup some incentive)*
+
+Build Agent or Multi-Agents by [SpoonOS](spoonai.io)  
+Follow on [X (Twitter)](https://x.com/SpoonOS_ai)
