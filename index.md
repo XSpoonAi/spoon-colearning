@@ -36,7 +36,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 {% assign instructors = site.staffers | sort: 'index' %}
 {% for staffer in instructors %}
   <div class="staff-card">
-    <img src="{{ staffer.picture }}" alt="{{ staffer.name }}" />
+    <img src="{{ site.baseurl }}/{{ staffer.picture }}" alt="{{ staffer.name }}" />
     <p><strong><a href="{{ staffer.url }}">{{ staffer.name }}</a></strong><br>
     {{ staffer.role }}<br>
     <em>{{ staffer.email }}</em><br>
