@@ -1,6 +1,6 @@
 ---
 name: Yue Liu
-role: Instructor
+role: PhD in Computer Science at National University of Singapore
 index: 2
 picture: /assets/images/yue-liu.jpg
 email: yueliu19990731@163.com

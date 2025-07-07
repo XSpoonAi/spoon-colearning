@@ -1,6 +1,6 @@
 ---
 name: Zhou Zijian
-role: Instructor
+role: PhD in Computer Science at National University of Singapore
 index: 1
 picture: /assets/images/zhou-zijian.jpg
 email: zhou_zijian@u.nus.edu
