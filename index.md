@@ -45,7 +45,4 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 {% endfor %}
 </div>
 
-## Syllabus
-{% include_relative syllabus.md %}
-
 ## Workshop
