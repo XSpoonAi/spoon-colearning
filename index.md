@@ -88,7 +88,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 
 ## Workshop
 
-*Collaborative learning Demoday (setup some incentive)*
+*Collaborative learning Demoday & Hackathon in coming*
 
 Build Agent or Multi-Agents by [SpoonOS](spoonai.io)  
 Follow on [X (Twitter)](https://x.com/SpoonOS_ai)
