@@ -4,7 +4,7 @@ layout: default
 nav_order: 1
 ---
 
-# Co-Learning
+# AI Co-Learning
 
 
 Large Language Models (LLMs) have profoundly reshaped the landscape of artificial intelligence. This course is designed to guide learners through the **core principles of LLMs and intelligent agents**, combining theoretical foundations with hands-on experience.
@@ -86,7 +86,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
   </tbody>
 </table>
 
-##  
+##
 
-Build Agent or Multi-Agents by [SpoonOS](https://spoonai.io)  
+Supported by [SpoonOS](https://spoonai.io)  
 Follow on [X (Twitter)](https://x.com/SpoonOS_ai)
