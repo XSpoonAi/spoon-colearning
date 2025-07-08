@@ -1,24 +1,28 @@
-title: Co-Learning
+title: Spoon CoLearning
 description: Course on Large Language Models
-theme: just-the-docs
-baseurl: "/Co-Learning-Prototype" # 注意：这是你的 GitHub 仓库名，前面要加斜杠
+remote_theme: just-the-docs/just-the-docs
 
-# 开启相对路径和隐藏侧边栏
+# 设置部署路径（改为你当前的仓库名）
+baseurl: "/spoon-colearning"
+
+# 启用相对路径和边栏
 just_the_docs:
   relative_links: true
   show_sidebar: true
 
-# enable search
+# 启用搜索功能
 search_enabled: true
 
+# 集合：用于讲师页等
 collections:
   staffers:
     output: true
 
+# 自定义样式路径（如未使用可省略）
 sass:
   custom_dir: _sass/custom
 
-# 设置默认布局
+# 默认布局
 defaults:
   - scope:
       path: ""
