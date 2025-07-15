@@ -53,7 +53,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     <tr>
       <th>Date</th>
       <th>Guest Lecture</th>
-      <th>Quiz</th>
+      <th>Supplemental Readings</th>
     </tr>
   </thead>
   <tbody>
@@ -79,8 +79,8 @@ We will also examine the **limitations and risks** of current LLM agents — suc
         &nbsp;&nbsp;&nbsp;&nbsp;- Prompting<br><br>
       </td>
       <td>
-        - Implement guided decoding<br>
-        - Build a custom reasoning model without fine-tuning
+        - [Chain-of-Thought Reasoning Without Prompting](https://arxiv.org/abs/2402.10200)  
+        - [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409)  
       </td>
     </tr>
   </tbody>
