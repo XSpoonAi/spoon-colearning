@@ -77,8 +77,9 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     - Two approaches of achieving reasoning:<br>
     &nbsp;&nbsp;&nbsp;&nbsp;- Using a fine-tuned model<br>
     &nbsp;&nbsp;&nbsp;&nbsp;- Prompting
-    
-    <a href="/assets/slides/LLM Inference and Reasoning.pdf" target="_blank">Slides</a> &nbsp;·&nbsp;
+
+    <br>
+    <a href="/assets/slides/LLM_Inference_and_Reasoning.pdf" target="_blank">Slides</a> &nbsp;·&nbsp;
     <a href="https://www.youtube.com/live/0ocJov63Zp4" target="_blank">Recording</a>
   </td>
   <td>
