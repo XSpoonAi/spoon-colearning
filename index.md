@@ -79,7 +79,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     &nbsp;&nbsp;&nbsp;&nbsp;- Prompting
 
     <br>
-    <a href="/assets/slides/LLM_Inference_and_Reasoning.pdf" target="_blank">Slides</a> &nbsp;·&nbsp;
+    <a href="/spoon-colearning/assets/slides/LLM_Inference_and_Reasoning.pdf" target="_blank">Slides</a>
     <a href="https://www.youtube.com/live/0ocJov63Zp4" target="_blank">Recording</a>
   </td>
   <td>
