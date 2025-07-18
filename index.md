@@ -87,6 +87,19 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     - <a href="https://arxiv.org/abs/2309.03409" target="_blank">Large Language Models as Optimizers</a><br><br>
   </td>
 </tr>
+<tr>
+  <td>July 23rd</td>
+  <td>
+    <strong>Post-Training Reasoning Models</strong><br>
+    Zhi Wang, UCSD<br><br>
+
+    <strong>Recording / Slides:</strong><br>
+    <em>To be uploaded</em>
+  </td>
+  <td>
+    <em>......</em>
+  </td>
+</tr>
   </tbody>
 </table>
 
