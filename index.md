@@ -97,7 +97,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     <em>To be uploaded</em>
   </td>
   <td>
-    <em>......</em>
+    <em>To be uploaded</em>
   </td>
 </tr>
   </tbody>
