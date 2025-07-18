@@ -97,6 +97,39 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     <em>To be uploaded</em>
   </td>
   <td>
+    - <a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf" target="_blank">Introduction to Reinforcement Learning</a><br>
+    - <a href="https://courses.d2l.ai/berkeley-stat-157/index.html" target="_blank">Introduction to Deep Learning</a><br><br>
+  </td>
+</tr>
+<tr>
+  <td>August 1rd</td>
+  <td>
+    <strong>Learning from Experience AKA Reinforcement Learning (2024 Turing Award topic for research and business)</strong><br>
+    Yuxi Li, University of Alberta, AI4All Institute <br><br>
+    
+    <strong>First principles:</strong><br>
+    - Learning from experience<br>
+    - Iterative improvement based on ground truth<br>
+
+    <strong>Research:</strong><br>
+    - Pursuing truth or following trend<br>
+    - Autonomous, optimal and adaptive agents<br>
+    - Simulation, integration of (world) model and data<br>
+    - Explore alternative approaches w.r.t. data collection, architectures, and algorithms<br>
+    - "Small" language models, modularity, generalist vs specialist<br>
+
+    <strong>Business:</strong><br>
+    - Value investment<br>
+    - AI vs IT<br>
+    - Code LLMs<br>
+    - Experience data collection<br>
+    - Decentralized AI aka AI + blockchain, in particular, for stablecoin<br>
+
+
+    <strong>Recording / Slides:</strong><br>
+    <em>To be uploaded</em>
+  </td>
+  <td>
     <em>To be uploaded</em>
   </td>
 </tr>
