@@ -24,14 +24,14 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 
 ## Topics Covered
 
- 🔹 Foundation of LLMs  
- 🔹 LLM Inference & Reasoning          
- 🔹 Agent Overview (Planning – Tool Use – Memory)       
- 🔹 MCP (Modular Control Protocol) & A2A (Agent-to-Agent communication)
- 🔹 Reinforcement Learning Foundations (MDPs, value functions, policy gradients)
- 🔹 RL for Language Models: Tool use, exploration, and long-horizon reasoning
- 🔹 RL in Practice: Code LLMs, experience data collection, and decentralized AI systems
- 🔹 Alignment via RLHF (Reinforcement Learning from Human Feedback) 
+🔹 Foundation of LLMs  
+🔹 LLM Inference & Reasoning          
+🔹 Agent Overview (Planning – Tool Use – Memory)       
+🔹 MCP (Modular Control Protocol) & A2A (Agent-to-Agent communication)
+🔹 Reinforcement Learning Foundations (MDPs, value functions, policy gradients)
+🔹 RL for Language Models: Tool use, exploration, and long-horizon reasoning
+🔹 RL in Practice: Code LLMs, experience data collection, and decentralized AI systems
+🔹 Alignment via RLHF (Reinforcement Learning from Human Feedback) 
 
 
 ## Lecture Guests
