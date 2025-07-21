@@ -6,4 +6,6 @@ picture: assets/images/zhi-wang.jpg
 email: zhw119@ucsd.edu
 external_url: https://github.com/Zhi0467
 featured: true
+layout: page
+
 ---
