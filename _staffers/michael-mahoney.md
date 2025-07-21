@@ -6,5 +6,4 @@ picture: assets/images/michael-mahoney.jpg
 email: mmahoney@stat.berkeley.edu
 external_url: https://www.stat.berkeley.edu/~mmahoney/
 featured: true
-layout: default
 ---
