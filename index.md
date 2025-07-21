@@ -32,7 +32,6 @@ We will also examine the **limitations and risks** of current LLM agents — suc
  🔹 RL for Language Models: Tool use, exploration, and long-horizon reasoning
  🔹 RL in Practice: Code LLMs, experience data collection, and decentralized AI systems
  🔹 Alignment via RLHF (Reinforcement Learning from Human Feedback)
-
  
 
 
