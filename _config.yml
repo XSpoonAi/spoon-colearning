@@ -1,6 +1,6 @@
 title: Spoon CoLearning
 description: Course on Large Language Models
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 # 设置部署路径（改为你当前的仓库名）
 baseurl: "/spoon-colearning"
