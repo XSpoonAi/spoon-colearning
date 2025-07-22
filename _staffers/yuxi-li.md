@@ -7,5 +7,4 @@ email: yuxili@gmail.com
 external_url: https://www.linkedin.com/in/yuxi-li-7b00816/
 featured: true
 layout: default
-
 ---
