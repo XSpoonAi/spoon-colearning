@@ -21,13 +21,3 @@
   margin-bottom: 0.5rem;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
-
-.side-bar {
-  @include mq(lg) {
-    /* 原主题默认宽度是 calc((100% - (#{$nav-width} + #{$content-width}))/2 + #{$nav-width}) */
-    /* 这里将侧边栏固定为 15% 或 200px，按需调整 */
-    width: 15%;
-    /* 或者用固定像素 */
-    /* width: 200px; */
-  }
-}
