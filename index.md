@@ -82,7 +82,6 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     &nbsp;&nbsp;&nbsp;&nbsp;- Using a fine-tuned model<br>
     &nbsp;&nbsp;&nbsp;&nbsp;- Prompting
 
-    <br>
     <a href="/spoon-colearning/assets/slides/LLM_Inference_and_Reasoning.pdf" target="_blank">Slides</a>
     <a href="https://www.youtube.com/live/0ocJov63Zp4" target="_blank">Recording</a>
   </td>
@@ -107,6 +106,9 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     - Practical design of reasoning-oriented pipelines for math and code tasks<br>
     - Techniques to enhance reasoning during inference without retraining<br>
     - Discussion on current limitations and future research directions in scalable reasoning for LLMs<br><br>
+
+    <a href="/spoon-colearning/assets/slides/Post_Training_Reasoning_Models.pdf" target="_blank">Slides</a>
+    <a href="https://www.youtube.com/watch?v=YWB5Y18eFso" target="_blank">Recording</a>  
   </td>
   <td>
     <a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf" target="_blank">Introduction to Reinforcement Learning</a><br>
