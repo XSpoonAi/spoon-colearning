@@ -80,7 +80,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     - Why reasoning is important for LLM?<br>
     - Two approaches of achieving reasoning:<br>
     &nbsp;&nbsp;&nbsp;&nbsp;- Using a fine-tuned model<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;- Prompting
+    &nbsp;&nbsp;&nbsp;&nbsp;- Prompting<br><br>
 
     <a href="/spoon-colearning/assets/slides/LLM_Inference_and_Reasoning.pdf" target="_blank">Slides</a>
     <a href="https://www.youtube.com/live/0ocJov63Zp4" target="_blank">Recording</a>
@@ -100,7 +100,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     - Motivation for post-training: overcoming scaling limits of pre-training and enabling LLMs to "think"<br>
     - Introducing temporal reasoning via Chain-of-Thought (CoT) and Tree-of-Thought (ToT)<br>
     - Supervised Fine-Tuning (SFT) on reasoning data: objectives and benefits<br>
-    - Reinforcement Learning with Verifiable Rewards (RLVR) and GRPO (Group Relative Policy Optimization)<br>
+    - Reinforcement Learning with Verifiable Rewards (RLVR) and GRPO (Group Relative Policy Optimization)<br><br>
 
     <strong>Applications & Insights:</strong><br>
     - Practical design of reasoning-oriented pipelines for math and code tasks<br>
@@ -152,6 +152,6 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 </table>
 
 
-Powered by [SpoonOS](https://spoonai.io) 
-Supported by [Berkeley Emerging Technology Association (BETA)](https://mp.weixin.qq.com/s/VBFUAU8MyaeIjd93FrWLhQ) 
+Powered by [SpoonOS](https://spoonai.io) <br>
+Supported by [Berkeley Emerging Technology Association (BETA)](https://mp.weixin.qq.com/s/VBFUAU8MyaeIjd93FrWLhQ) <br>
 Follow on [X (Twitter)](https://x.com/SpoonOS_ai)
