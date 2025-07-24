@@ -97,8 +97,9 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     <strong>Post-Training Reasoning Models</strong><br>
     Zhi Wang, UCSD<br><br>
 
-    <strong>Recording / Slides:</strong><br>
-    <em>To be uploaded</em>
+    <br>
+    <a href="/spoon-colearning/assets/slides/Post_Training_Reasoning_Models.pdf" target="_blank">Slides</a>
+    <a href="https://www.youtube.com/watch?v=YWB5Y18eFso" target="_blank">Recording</a>
   </td>
   <td>
     - <a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf" target="_blank">Introduction to Reinforcement Learning</a><br>
