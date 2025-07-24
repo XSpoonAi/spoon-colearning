@@ -92,7 +92,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
   </td>
 </tr>
 <tr>
-  <td>July 23rd</td>
+  <td>July 23th</td>
   <td>
     <strong>Post-Training Reasoning Models</strong><br>
     Zhi Wang, UCSD<br><br>
@@ -106,7 +106,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
   </td>
 </tr>
 <tr>
-  <td>August 13st</td>
+  <td>August 13th</td>
   <td>
     <strong>Learning from Experience AKA Reinforcement Learning (2024 Turing Award topic for research and business)</strong><br>
     Yuxi Li, University of Alberta, AI4All Institute <br><br>
