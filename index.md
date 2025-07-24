@@ -97,6 +97,23 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     <strong>Post-Training Reasoning Models</strong><br>
     Zhi Wang, UCSD<br><br>
 
+    <strong>Key Topics:</strong><br>
+    - Motivation for post-training: overcoming scaling limits of pre-training and enabling LLMs to "think"<br>
+    - Introducing temporal reasoning via Chain-of-Thought (CoT) and Tree-of-Thought (ToT)<br>
+    - Supervised Fine-Tuning (SFT) on reasoning data: objectives and benefits<br>
+    - Reinforcement Learning with Verifiable Rewards (RLVR) and GRPO (Group Relative Policy Optimization)<br>
+    - 1-shot RLVR findings: latent reasoning activation with minimal data<br>
+    - DeepSeek R1 pipeline: alternating SFT and RL phases for robust reasoning<br>
+    - Inference-time scaling: pass@k metrics, self-consistency, temperature and top-k/top-p tuning, and GenSelect selector model<br>
+    - Myths and debates: RL vs base model capabilities, data contamination, and sampling efficiency gaps<br>
+    - Open questions: combining SFT and RL, latent reasoning development, and efficient RL training strategies<br><br>
+    
+    <strong>Applications & Insights:</strong><br>
+    - Practical design of reasoning-oriented pipelines for math and code tasks<br>
+    - Techniques to enhance reasoning during inference without retraining<br>
+    - Discussion on current limitations and future research directions in scalable reasoning for LLMs<br>
+  </td>
+
     <br>
     <a href="/spoon-colearning/assets/slides/Post_Training_Reasoning_Models.pdf" target="_blank">Slides</a>
     <a href="https://www.youtube.com/watch?v=YWB5Y18eFso" target="_blank">Recording</a>
