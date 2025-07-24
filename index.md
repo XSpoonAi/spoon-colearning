@@ -117,6 +117,24 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 </tr>
 
 <tr>
+  <td>August 8th</td>
+  <td>
+    <strong>[Topic TBD]</strong><br>
+    Michael Mahoney, UC Berkeley, Amazon <br><br>
+
+    <strong>Key Points:</strong><br>
+    <em>To be uploaded</em><br><br>
+
+    <strong>Recording / Slides:</strong><br>
+    <em>To be uploaded</em>
+  </td>
+  <td>
+    <em>To be uploaded</em>
+  </td>
+</tr>
+
+
+<tr>
   <td>August 13th</td>
   <td>
     <strong>Learning from Experience AKA Reinforcement Learning (2024 Turing Award topic for research and business)</strong><br>
