@@ -119,11 +119,16 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 <tr>
   <td>August 8th</td>
   <td>
-    <strong>[Topic TBD]</strong><br>
+    <strong>Foundational Methods for Foundation Models for Scientific Machine Learning</strong><br>
     Michael Mahoney, UC Berkeley, Amazon <br><br>
 
     <strong>Key Points:</strong><br>
-    <em>To be uploaded</em><br><br>
+    - Pre‑train & fine‑tune paradigm for SciML, adapted from NLP/CV<br>
+    - Scaling laws: model size, data size vs. fine‑tuning performance<br>
+    - Out‑of‑distribution transfer across physics parameters<br>
+    - Multi-task pre‑training across physics problems<br>
+    - Failure modes at SciML–ML interface & mitigation strategies<br>
+    - Deployment at scale using HPC environments like NERSC<br><br>
 
     <strong>Recording / Slides:</strong><br>
     <em>To be uploaded</em>
