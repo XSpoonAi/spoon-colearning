@@ -123,12 +123,14 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     Michael Mahoney, UC Berkeley, Amazon <br><br>
 
     <strong>Key Points:</strong><br>
-    - Pre‑train & fine‑tune paradigm for SciML, adapted from NLP/CV<br>
-    - Scaling laws: model size, data size vs. fine‑tuning performance<br>
-    - Out‑of‑distribution transfer across physics parameters<br>
-    - Multi-task pre‑training across physics problems<br>
-    - Failure modes at SciML–ML interface & mitigation strategies<br>
-    - Deployment at scale using HPC environments like NERSC<br><br>
+    <ul>
+      <li>Pre-train & fine-tune paradigm for SciML, adapted from NLP/CV</li>
+      <li>Scaling laws: model size, data size vs. fine-tuning performance</li>
+      <li>Out-of-distribution transfer across physics parameters</li>
+      <li>Multi-task pre-training across physics problems</li>
+      <li>Failure modes at SciML–ML interface & mitigation strategies</li>
+      <li>Deployment at scale using HPC environments like NERSC</li>
+    </ul>
 
     <strong>Recording / Slides:</strong><br>
     <em>To be uploaded</em>
@@ -137,6 +139,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     <em>To be uploaded</em>
   </td>
 </tr>
+
 
 
 <tr>
