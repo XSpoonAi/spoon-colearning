@@ -1,7 +1,7 @@
 title: Spoon CoLearning
 description: Course on Large Language Models
 remote_theme: just-the-docs/just-the-docs
-
+git commit -m "lec 1.2"
 # 设置部署路径（改为你当前的仓库名）
 baseurl: "/spoon-colearning"
 
