@@ -163,7 +163,7 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 
 
 <tr>
-  <td>August 13th</td>
+  <td>August 28th</td>
   <td>
     <strong>Learning from Experience AKA Reinforcement Learning (2024 Turing Award topic for research and business)</strong><br>
     Yuxi Li, University of Alberta, AI4All Institute <br><br>
