@@ -153,8 +153,8 @@ We will also examine the **limitations and risks** of current LLM agents — suc
       <li>Deployment at scale using HPC environments like NERSC</li>
     </ul>
 
-    <strong>Recording / Slides:</strong><br>
-    <em>To be uploaded</em>
+    <a href="/spoon-colearning/assets/slides/foundations7_apr25.pdf" target="_blank">Slides</a> · 
+    <a href="https://www.youtube.com/watch?v=eKUKtz_BAK4" target="_blank">Recording</a>
   </td>
   <td>
     <em>To be uploaded</em>
