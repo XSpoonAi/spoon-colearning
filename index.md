@@ -200,7 +200,10 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     <a href="https://www.youtube.com/watch?v=XmaPzLcNOco" target="_blank">Recording</a>
   </td>
   <td>
-    <em>To be uploaded</em>
+    <ul>
+      <li><a href="https://sites.google.com/view/rl-llm-aaai2024" target="_blank">Synergy of Reinforcement Learning and Large Language Models (RL+LLMs)</a></li>
+      <li><a href="https://arxiv.org/abs/1701.07274" target="_blank">Deep Reinforcement Learning: An Overview</a></li>
+    </ul>
   </td>
 </tr>
 
