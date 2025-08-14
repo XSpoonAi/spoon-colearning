@@ -157,7 +157,10 @@ We will also examine the **limitations and risks** of current LLM agents — suc
     <a href="https://www.youtube.com/watch?v=eKUKtz_BAK4" target="_blank">Recording</a>
   </td>
   <td>
-    <em>To be uploaded</em>
+      <li><a href="https://arxiv.org/abs/2507.10349" target="_blank">Multipole Attention for Efficient Long Context Reasoning</a></li>
+      <li><a href="https://arxiv.org/abs/2507.10349" target="_blank">TAT: Temporal-Aligned Transformer for Multi-Horizon Peak Demand Forecasting</a></li>
+      <li><a href="https://arxiv.org/abs/2501.06386" target="_blank">Using Pre-trained LLMs for Multivariate Time Series Forecasting</a></li>
+    </ul>
   </td>
 </tr>
 
