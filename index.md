@@ -195,9 +195,9 @@ We will also examine the **limitations and risks** of current LLM agents — suc
       <li>Experience data collection</li>
       <li>Decentralized AI aka AI + blockchain, in particular, for stablecoin</li>
     </ul>
-
-    <strong>Recording / Slides:</strong><br>
-    <em>To be uploaded</em>
+    
+    <a href="https://drive.google.com/file/d/1WVOBiwudUUiR7_pC9ILlcltJeAs--Faj/view?usp=share_link" target="_blank">Slides</a> · 
+    <a href="https://www.youtube.com/watch?v=XmaPzLcNOco" target="_blank">Recording</a>
   </td>
   <td>
     <em>To be uploaded</em>
