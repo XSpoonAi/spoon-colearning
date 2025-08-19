@@ -31,7 +31,7 @@ nav_order: 3
   .staff-card a{ font-weight:600; }
 </style>
 
-## Lecture Guests (Series 1)
+## Lecture Guests 
 
 <div class="staff-grid">
 
