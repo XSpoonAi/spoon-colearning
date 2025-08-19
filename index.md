@@ -34,21 +34,6 @@ We will also examine the **limitations and risks** of current LLM agents — suc
 - Alignment via RLHF (Reinforcement Learning from Human Feedback) 
 
 
-## Lecture Guests
-
-<div class="staff-grid">
-{% assign featured_guests = site.staffers | where: "featured", true | sort: "index" %}
-{% for staffer in featured_guests %}
-  <div class="staff-card">
-    <img src="{{ staffer.picture }}" alt="{{ staffer.name }}" />
-    <p>
-      <strong><a href="{{ staffer.external_url }}" target="_blank">{{ staffer.name }}</a></strong><br>
-      {{ staffer.role }}<br>
-      <em>{{ staffer.email }}</em>
-    </p>
-  </div>
-{% endfor %}
-</div>
 
 
 

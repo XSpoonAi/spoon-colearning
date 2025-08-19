@@ -6,6 +6,77 @@ nav_order: 3
 
 # Series 1
 
+<style>
+  .staff-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:16px;
+    align-items:start;
+    margin: 0 0 1rem 0;
+  }
+  .staff-card{
+    background:#fff;
+    padding:12px;
+    border-radius:12px;
+    box-shadow:0 1px 2px rgba(0,0,0,.06);
+  }
+  .staff-card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+    border-radius:8px;
+    display:block;
+  }
+  .staff-card p{ margin:8px 0 0; }
+  .staff-card a{ font-weight:600; }
+</style>
+
+## Lecture Guests (Series 1)
+
+<div class="staff-grid">
+
+  <div class="staff-card">
+    <img src="{{ '/assets/images/michael-mahoney.jpg' | relative_url }}" alt="Michael Mahoney" />
+    <p>
+      <strong><a href="https://www.stat.berkeley.edu/~mmahoney/" target="_blank">Michael Mahoney</a></strong><br>
+      Professor in University of California Berkeley, Amazon Scholar<br>
+      <em>mmahoney@stat.berkeley.edu</em>
+    </p>
+  </div>
+
+  <div class="staff-card">
+    <img src="{{ '/assets/images/yuxi-li.jpg' | relative_url }}" alt="Yuxi Li" />
+    <p>
+      <strong><a href="https://www.linkedin.com/in/yuxi-li-7b00816/" target="_blank">Yuxi Li</a></strong><br>
+      PhD in Computer Science at University of Alberta<br>
+      <em>yuxili@gmail.com</em>
+    </p>
+  </div>
+
+  <div class="staff-card">
+    <img src="{{ '/assets/images/zhi-wang.jpg' | relative_url }}" alt="Zhi Wang" />
+    <p>
+      <strong><a href="https://github.com/Zhi0467" target="_blank">Zhi Wang</a></strong><br>
+      PhD in Data Science at University of California San Diego<br>
+      <em>zhw119@ucsd.edu</em>
+    </p>
+  </div>
+
+  <div class="staff-card">
+    <img src="{{ '/assets/images/zhou-zijian.jpg' | relative_url }}" alt="Zhou Zijian" />
+    <p>
+      <strong><a href="https://bobbyzhouzijian.github.io/about/" target="_blank">Zhou Zijian</a></strong><br>
+      PhD in Computer Science at National University of Singapore<br>
+      <em>zhou_zijian@u.nus.edu</em>
+    </p>
+  </div>
+
+</div>
+
+---
+
+## Schedule
+
 <div style="overflow-x:auto; -webkit-overflow-scrolling: touch;">
 <table>
   <thead>
@@ -16,6 +87,7 @@ nav_order: 3
     </tr>
   </thead>
   <tbody>
+
 <tr>
   <td>July 18th</td>
   <td>
@@ -47,7 +119,7 @@ nav_order: 3
       </li>
     </ul>
 
-    <a href="/spoon-colearning/assets/slides/LLM_Inference_and_Reasoning.pdf" target="_blank">Slides</a> · 
+    <a href="{{ '/assets/slides/LLM_Inference_and_Reasoning.pdf' | relative_url }}" target="_blank">Slides</a> · 
     <a href="https://www.youtube.com/live/0ocJov63Zp4" target="_blank">Recording</a>
   </td>
   <td>
@@ -59,7 +131,7 @@ nav_order: 3
 </tr>
 
 <tr>
-  <td>July 23th</td>
+  <td>July 23rd</td>
   <td>
     <strong>Post-Training Reasoning Models</strong><br>
     Zhi Wang, UCSD<br><br>
@@ -79,7 +151,7 @@ nav_order: 3
       <li>Discussion on current limitations and future research directions in scalable reasoning for LLMs</li>
     </ul>
 
-    <a href="/spoon-colearning/assets/slides/Post_Training_Reasoning_Models.pdf" target="_blank">Slides</a> · 
+    <a href="{{ '/assets/slides/Post_Training_Reasoning_Models.pdf' | relative_url }}" target="_blank">Slides</a> · 
     <a href="https://www.youtube.com/watch?v=VWB5Y18eFso" target="_blank">Recording</a>
   </td>
   <td>
@@ -106,7 +178,7 @@ nav_order: 3
       <li>Deployment at scale using HPC environments like NERSC</li>
     </ul>
 
-    <a href="/spoon-colearning/assets/slides/foundations7_apr25.pdf" target="_blank">Slides</a> · 
+    <a href="{{ '/assets/slides/foundations7_apr25.pdf' | relative_url }}" target="_blank">Slides</a> · 
     <a href="https://www.youtube.com/watch?v=eKUKtz_BAK4" target="_blank">Recording</a>
   </td>
   <td>
