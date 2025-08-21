@@ -1,5 +1,5 @@
 ---
-title: Series 1
+title: Series Ⅰ
 layout: default
 nav_order: 3
 ---
@@ -7,12 +7,11 @@ nav_order: 3
 # Series Ⅰ
 
 <style>
-  .staff-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-    gap:16px;
-    align-items:start;
-    margin: 0 0 1rem 0;
+  .staff-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 固定每行两列 */
+    gap: 20px; /* 卡片间距 */
+    justify-items: center; /* 卡片居中 */
   }
   .staff-card{
     background:#fff;
