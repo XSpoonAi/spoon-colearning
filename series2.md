@@ -32,6 +32,9 @@ nav_order: 4
   }
   .staff-card p{ margin:8px 0 0; text-align:center; }
   .staff-card a{ font-weight:600; }
+  /* 没有邮箱时不占行 */
+  .staff-card em:empty { display:none; }
+
   @media (max-width: 768px){
     .staff-grid { grid-template-columns: 1fr; } /* 小屏单列 */
   }
@@ -46,7 +49,7 @@ nav_order: 4
     <p>
       <strong><a href="https://www.linkedin.com/in/sabinanong/" target="_blank">Sabina (Yudi) Nong</a></strong><br>
       Master of International Policy @ Stanford FSI<br>
-      <em>..</em>
+      <em></em>
     </p>
   </div>
 
@@ -64,7 +67,7 @@ nav_order: 4
     <p>
       <strong><a href="https://www.linkedin.com/in/yuan-tian-3622a0172/" target="_blank">Yuan Tian</a></strong><br>
       Postdoc @ ETH Zurich<br>
-      <em>..</em>
+      <em></em>
     </p>
   </div>
 
@@ -73,7 +76,7 @@ nav_order: 4
     <p>
       <strong><a href="https://www-labs.iro.umontreal.ca/~liubang/index.html" target="_blank">Bang Liu</a></strong><br>
       Associate Professor @ University of Montreal (UdeM)<br>
-      <em>..</em>
+      <em></em>
     </p>
   </div>
 
