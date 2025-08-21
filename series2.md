@@ -54,9 +54,20 @@ nav_order: 4
     </p>
   </div>
 
+<div class="staff-grid">
+
+  <div class="staff-card">
+    <img src="{{ '/assets/images/yuan-tian.jpg' | relative_url }}" alt="Yuan Tian" />
+    <p>
+      <strong><a href="https://www.linkedin.com/in/yuan-tian-3622a0172/" target="_blank">Yuan Tian</a></strong><br>
+      Postdoc at ETH Zurich<br>
+      <em>..</em>
+    </p>
+  </div>
+
 </div>
 
----
+<hr>
 
 ## Schedule
 
