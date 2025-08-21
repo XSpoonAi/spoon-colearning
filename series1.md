@@ -30,6 +30,8 @@ nav_order: 3
   .staff-card a{ font-weight:600; }
 </style>
 
+<hr>
+
 ## Lecture Guests 
 
 <div class="staff-grid">
@@ -72,7 +74,7 @@ nav_order: 3
 
 </div>
 
----
+<hr>
 
 ## Schedule
 

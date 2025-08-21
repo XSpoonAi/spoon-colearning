@@ -40,6 +40,8 @@ nav_order: 4
   }
 </style>
 
+<hr>
+
 ## Lecture Guests
 
 <div class="staff-grid">
@@ -82,7 +84,7 @@ nav_order: 4
 
 </div>
 
----
+<hr>
 
 ## Schedule
 
