@@ -7,12 +7,11 @@ nav_order: 4
 # Series Ⅱ
 
 <style>
-  .staff-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-    gap:16px;
-    align-items:start;
-    margin: 0 0 1rem 0;
+  .staff-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 固定每行两列 */
+    gap: 20px; /* 卡片间距 */
+    justify-items: center; /* 卡片居中 */
   }
   .staff-card{
     background:#fff;
@@ -31,3 +30,53 @@ nav_order: 4
   .staff-card a{ font-weight:600; }
 </style>
 
+## Lecture Guests 
+
+<div class="staff-grid">
+
+  <div class="staff-card">
+    <img src="{{ '/assets/images/Sabina-(Yudi)-Nong.jpg' | relative_url }}" alt="Sabina(Yudi)Nong" />
+    <p>
+      <strong><a href="https://www.linkedin.com/in/sabinanong/" target="_blank">Sabina(Yudi)Nong</a></strong><br>
+      Master of lnternational Policy @ Stanford FSI<br>
+      <em>..</em>
+    </p>
+  </div>
+
+---
+
+## Schedule
+
+<div style="overflow-x:auto; -webkit-overflow-scrolling: touch;">
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Guest Lecture</th>
+      <th>Supplemental Readings</th>
+    </tr>
+  </thead>
+  <tbody>
+
+<tr>
+  <td>August 29th</td>
+  <td>
+    <strong>Governance: LLM + AlAgents</strong><br>
+    Sabina(Yudi)Nong, Stanford<br><br>
+
+    <strong>Key Points:</strong><br>
+    <ul>
+      <li>Al Governance & its Stakes</li>
+      <li>Why Al Agents Require a Distinct Governance Lens(Proceduralvs. Predictive)</li>
+      <li>Developer Governance</li>
+      <li>Regulatory governance</li>
+      <li>What does a good governance structure look like?</li>
+    </ul>
+
+    <a href="https://docs.google.com/presentation/d/145F-UnXUBswnz03WvZkliK7eLiLyhGY0bTrDJo8VUAk/mobilepresent?slide=id.g376427fc988_0_361" target="_blank">Slides</a> · 
+    <em>Recording (To be uploaded)</em>
+  </td>
+  <td>
+    <em>Supplemental Readings (To be updated)</em>
+  </td>
+</tr>
