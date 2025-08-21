@@ -4,7 +4,7 @@ layout: default
 nav_order: 3
 ---
 
-# Series 1
+# Series Ⅰ
 
 <style>
   .staff-grid{
