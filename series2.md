@@ -35,11 +35,22 @@ nav_order: 4
 <div class="staff-grid">
 
   <div class="staff-card">
-    <img src="{{ '/assets/images/sabina-yudi-nong.jpg' | relative_url }}" alt="Sabina(Yudi)Nong" />
+    <img src="{{ '/assets/images/sabina-yudi-nong.jpg' | relative_url }}" alt="Sabina (Yudi) Nong" />
     <p>
-      <strong><a href="https://www.linkedin.com/in/sabinanong/" target="_blank">Sabina(Yudi)Nong</a></strong><br>
+      <strong><a href="https://www.linkedin.com/in/sabinanong/" target="_blank">Sabina (Yudi) Nong</a></strong><br>
       Master of lnternational Policy @ Stanford FSI<br>
       <em>..</em>
+    </p>
+  </div>
+
+<div class="staff-grid">
+
+  <div class="staff-card">
+    <img src="{{ '/assets/images/kumar-shridhar.jpg' | relative_url }}" alt="Kumar Shridhar" />
+    <p>
+      <strong><a href="https://www.linkedin.com/in/sabinanong/" target="_blank">Kumar Shridhar</a></strong><br>
+      PHD @ ETH Zürich in Machine Learning<br>
+      <em>shridhar.stark@gmail.com</em>
     </p>
   </div>
 
@@ -64,7 +75,7 @@ nav_order: 4
   <td>August 29th</td>
   <td>
     <strong>Governance: LLM + AlAgents</strong><br>
-    Sabina(Yudi)Nong, Stanford<br><br>
+    Sabina (Yudi) Nong, Stanford<br><br>
 
     <strong>Key Points:</strong><br>
     <ul>
