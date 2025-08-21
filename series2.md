@@ -25,13 +25,16 @@ nav_order: 4
   }
   .staff-card img{
     width:100%;
-    height:160px;         /* 与 Series Ⅰ 相同，避免被压扁 */
+    height:160px;         /* 统一高度避免被拉伸 */
     object-fit:cover;     /* 居中裁剪 */
     border-radius:8px;
     display:block;
   }
   .staff-card p{ margin:8px 0 0; text-align:center; }
   .staff-card a{ font-weight:600; }
+  @media (max-width: 768px){
+    .staff-grid { grid-template-columns: 1fr; } /* 小屏单列 */
+  }
 </style>
 
 ## Lecture Guests
