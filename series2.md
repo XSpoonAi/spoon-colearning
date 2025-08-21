@@ -82,7 +82,7 @@ nav_order: 4
 
 </div>
 
-<hr>
+---
 
 ## Schedule
 
