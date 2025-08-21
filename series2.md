@@ -35,13 +35,15 @@ nav_order: 4
 <div class="staff-grid">
 
   <div class="staff-card">
-    <img src="{{ '/assets/images/Sabina-(Yudi)-Nong.jpg' | relative_url }}" alt="Sabina(Yudi)Nong" />
+    <img src="{{ '/assets/images/sabina-yudi-nong.jpg' | relative_url }}" alt="Sabina(Yudi)Nong" />
     <p>
       <strong><a href="https://www.linkedin.com/in/sabinanong/" target="_blank">Sabina(Yudi)Nong</a></strong><br>
       Master of lnternational Policy @ Stanford FSI<br>
       <em>..</em>
     </p>
   </div>
+
+</div>
 
 ---
 
