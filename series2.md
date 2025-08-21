@@ -7,37 +7,27 @@ nav_order: 4
 # Series Ⅱ
 
 <style>
-  /* 与 Series Ⅰ 保持一致：两列卡片 + 统一图高 */
   .staff-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 每行两个 */
-    gap: 20px;
-    justify-items: center;
-    margin-bottom: 1rem;
+    grid-template-columns: repeat(2, 1fr); /* 固定每行两列 */
+    gap: 20px; /* 卡片间距 */
+    justify-items: center; /* 卡片居中 */
   }
   .staff-card{
     background:#fff;
     padding:12px;
     border-radius:12px;
     box-shadow:0 1px 2px rgba(0,0,0,.06);
-    width: 100%;
-    max-width: 420px;
   }
   .staff-card img{
     width:100%;
-    height:160px;         /* 统一高度避免被拉伸 */
-    object-fit:cover;     /* 居中裁剪 */
+    height:160px;
+    object-fit:cover;
     border-radius:8px;
     display:block;
   }
-  .staff-card p{ margin:8px 0 0; text-align:center; }
+  .staff-card p{ margin:8px 0 0; }
   .staff-card a{ font-weight:600; }
-  /* 没有邮箱时不占行 */
-  .staff-card em:empty { display:none; }
-
-  @media (max-width: 768px){
-    .staff-grid { grid-template-columns: 1fr; } /* 小屏单列 */
-  }
 </style>
 
 <hr>
