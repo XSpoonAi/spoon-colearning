@@ -65,6 +65,16 @@ nav_order: 4
     </p>
   </div>
 
+<div class="staff-grid">
+
+  <div class="staff-card">
+    <img src="{{ '/assets/images/bang-liu.jpg' | relative_url }}" alt="Bang Liu" />
+    <p>
+      <strong><a href="https://www-labs.iro.umontreal.ca/~liubang/index.html" target="_blank">Bang Liu</a></strong><br>
+      Associate Professor @ University of Montreal (UdeM)<br>
+      <em>..</em>
+    </p>
+  </div>
 </div>
 
 
