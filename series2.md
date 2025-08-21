@@ -9,15 +9,18 @@ nav_order: 4
 <style>
   .staff-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 固定每行两列 */
-    gap: 20px; /* 卡片间距 */
-    justify-items: center; /* 卡片居中 */
+    grid-template-columns: repeat(2, 1fr); /* 每行2列 */
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 1rem;
   }
   .staff-card{
     background:#fff;
     padding:12px;
     border-radius:12px;
     box-shadow:0 1px 2px rgba(0,0,0,.06);
+    width: 100%;
+    max-width: 420px; /* 防止超宽 */
   }
   .staff-card img{
     width:100%;
@@ -26,11 +29,11 @@ nav_order: 4
     border-radius:8px;
     display:block;
   }
-  .staff-card p{ margin:8px 0 0; }
+  .staff-card p{ margin:8px 0 0; text-align:center; }
   .staff-card a{ font-weight:600; }
 </style>
 
-## Lecture Guests 
+## Lecture Guests
 
 <div class="staff-grid">
 
@@ -38,34 +41,28 @@ nav_order: 4
     <img src="{{ '/assets/images/sabina-yudi-nong.jpg' | relative_url }}" alt="Sabina (Yudi) Nong" />
     <p>
       <strong><a href="https://www.linkedin.com/in/sabinanong/" target="_blank">Sabina (Yudi) Nong</a></strong><br>
-      Master of lnternational Policy @ Stanford FSI<br>
+      Master of International Policy @ Stanford FSI<br>
       <em>..</em>
     </p>
   </div>
 
-<div class="staff-grid">
-
   <div class="staff-card">
     <img src="{{ '/assets/images/kumar-shridhar.jpg' | relative_url }}" alt="Kumar Shridhar" />
     <p>
-      <strong><a href="https://www.linkedin.com/in/sabinanong/" target="_blank">Kumar Shridhar</a></strong><br>
-      PHD @ ETH Zürich in Machine Learning<br>
+      <strong><a href="https://www.linkedin.com/in/kumar-shridhar/" target="_blank">Kumar Shridhar</a></strong><br>
+      PhD @ ETH Zürich in Machine Learning<br>
       <em>shridhar.stark@gmail.com</em>
     </p>
   </div>
-
-<div class="staff-grid">
 
   <div class="staff-card">
     <img src="{{ '/assets/images/yuan-tian.jpg' | relative_url }}" alt="Yuan Tian" />
     <p>
       <strong><a href="https://www.linkedin.com/in/yuan-tian-3622a0172/" target="_blank">Yuan Tian</a></strong><br>
-      Postdoc at ETH Zurich<br>
+      Postdoc @ ETH Zurich<br>
       <em>..</em>
     </p>
   </div>
-
-<div class="staff-grid">
 
   <div class="staff-card">
     <img src="{{ '/assets/images/bang-liu.jpg' | relative_url }}" alt="Bang Liu" />
@@ -75,8 +72,10 @@ nav_order: 4
       <em>..</em>
     </p>
   </div>
+
 </div>
 
+<hr>
 
 ## Schedule
 
@@ -91,25 +90,29 @@ nav_order: 4
   </thead>
   <tbody>
 
-<tr>
-  <td>August 29th</td>
-  <td>
-    <strong>Governance: LLM + AlAgents</strong><br>
-    Sabina (Yudi) Nong, Stanford<br><br>
+    <tr>
+      <td>August 29th</td>
+      <td>
+        <strong>Governance: LLM + AI Agents</strong><br>
+        Sabina (Yudi) Nong, Stanford<br><br>
 
-    <strong>Key Points:</strong><br>
-    <ul>
-      <li>Al Governance & its Stakes</li>
-      <li>Why Al Agents Require a Distinct Governance Lens(Proceduralvs. Predictive)</li>
-      <li>Developer Governance</li>
-      <li>Regulatory governance</li>
-      <li>What does a good governance structure look like?</li>
-    </ul>
+        <strong>Key Points:</strong><br>
+        <ul>
+          <li>AI Governance & its Stakes</li>
+          <li>Why AI Agents Require a Distinct Governance Lens (Procedural vs. Predictive)</li>
+          <li>Developer Governance</li>
+          <li>Regulatory Governance</li>
+          <li>What does a good governance structure look like?</li>
+        </ul>
 
-    <a href="https://docs.google.com/presentation/d/145F-UnXUBswnz03WvZkliK7eLiLyhGY0bTrDJo8VUAk/mobilepresent?slide=id.g376427fc988_0_361" target="_blank">Slides</a> · 
-    <em>Recording (To be uploaded)</em>
-  </td>
-  <td>
-    <em>Supplemental Readings (To be updated)</em>
-  </td>
-</tr>
+        <a href="https://docs.google.com/presentation/d/145F-UnXUBswnz03WvZkliK7eLiLyhGY0bTrDJo8VUAk/mobilepresent?slide=id.g376427fc988_0_361" target="_blank">Slides (Website)</a> ·
+        <em>Recording (To be uploaded)</em>
+      </td>
+      <td>
+        <em>Supplemental Readings (To be updated)</em>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
