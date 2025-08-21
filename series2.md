@@ -7,9 +7,10 @@ nav_order: 4
 # Series Ⅱ
 
 <style>
+  /* 与 Series Ⅰ 保持一致：两列卡片 + 统一图高 */
   .staff-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 每行2列 */
+    grid-template-columns: repeat(2, 1fr); /* 每行两个 */
     gap: 20px;
     justify-items: center;
     margin-bottom: 1rem;
@@ -20,12 +21,12 @@ nav_order: 4
     border-radius:12px;
     box-shadow:0 1px 2px rgba(0,0,0,.06);
     width: 100%;
-    max-width: 420px; /* 防止超宽 */
+    max-width: 420px;
   }
   .staff-card img{
     width:100%;
-    height:160px;
-    object-fit:cover;
+    height:160px;         /* 与 Series Ⅰ 相同，避免被压扁 */
+    object-fit:cover;     /* 居中裁剪 */
     border-radius:8px;
     display:block;
   }
@@ -49,7 +50,7 @@ nav_order: 4
   <div class="staff-card">
     <img src="{{ '/assets/images/kumar-shridhar.jpg' | relative_url }}" alt="Kumar Shridhar" />
     <p>
-      <strong><a href="https://www.linkedin.com/in/kumar-shridhar/" target="_blank">Kumar Shridhar</a></strong><br>
+      <strong><a href="https://www.linkedin.com/in/kumar-shridhar-ml/" target="_blank">Kumar Shridhar</a></strong><br>
       PhD @ ETH Zürich in Machine Learning<br>
       <em>shridhar.stark@gmail.com</em>
     </p>
