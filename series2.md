@@ -41,7 +41,7 @@ nav_order: 4
     <p>
       <strong><a href="https://www.linkedin.com/in/sabinanong/" target="_blank">Sabina (Yudi) Nong</a></strong><br>
       Master of International Policy @ Stanford FSI<br>
-      <em></em>
+      <em>sabn@stanford.edu</em>
     </p>
   </div>
 
@@ -108,7 +108,7 @@ nav_order: 4
         <em>Recording (To be uploaded)</em>
       </td>
       <td>
-        <em>Supplemental Readings (To be updated)</em>
+        <em>To be updated</em>
       </td>
     </tr>
 
