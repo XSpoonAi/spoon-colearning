@@ -123,6 +123,28 @@ nav_order: 4
       </td>
     </tr>
 
+    <tr>
+      <td>October 3rd</td>
+      <td>
+        <strong>Rewiring the reward pathways</strong><br>
+        Kumar Shridhar, ETH Zürich<br><br>
+
+        <strong>Key Topics:</strong><br>
+        <ul>
+          <li>Reward models in ML pipeline</li>
+          <li>Brittleness of current reward models</li>
+          <li>What to do when there is no clear reward (non verifiable rewards)</li>
+          <li>How to rewire reward pathways</li>
+          <li>A common reward model for both verifiable and non verifiable rewards</li>
+        </ul>
+
+        <a href="https://www.youtube.com/watch?v=x7wvhD28EMU" target="_blank">Recording</a>
+      </td>
+      <td>
+        <em>To be updated</em>
+      </td>
+    </tr>
+
   </tbody>
 </table>
 </div>
