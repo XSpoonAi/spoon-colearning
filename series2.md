@@ -21,7 +21,8 @@ nav_order: 4
     padding:12px !important;
     border-radius:12px !important;
     box-shadow:0 1px 2px rgba(0,0,0,.06) !important;
-    width: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
     text-align: left !important;
     font-size: inherit !important;
     list-style: none !important;
@@ -30,6 +31,7 @@ nav_order: 4
     width:100% !important;
     height:160px !important;
     object-fit:cover !important;
+    object-position: center !important;
     border-radius:8px !important;
     display:block !important;
     margin-bottom: 0 !important;
