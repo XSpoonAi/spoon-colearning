@@ -124,6 +124,28 @@ nav_order: 4
     </tr>
 
     <tr>
+      <td>September 3rd</td>
+      <td>
+        <strong>Interactive symbolic regression with co-design mechanism</strong><br>
+        Yuan Tian, ETH Zurich<br><br>
+
+        <strong>Key Topics:</strong><br>
+        <ul>
+          <li>Introduction to symbolic regression and its applications in scientific discovery</li>
+          <li>Challenges in traditional symbolic regression approaches</li>
+          <li>Co-design mechanism: integrating human expertise with machine learning</li>
+          <li>Interactive frameworks for collaborative model discovery</li>
+          <li>Case studies and practical applications in scientific computing</li>
+        </ul>
+
+        <a href="https://www.youtube.com/watch?v=Q-l6pVR3z-Y" target="_blank">Recording</a>
+      </td>
+      <td>
+        <em>To be updated</em>
+      </td>
+    </tr>
+
+    <tr>
       <td>October 3rd</td>
       <td>
         <strong>Rewiring the reward pathways</strong><br>
