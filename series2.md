@@ -104,8 +104,8 @@ nav_order: 4
           <li>What does a good governance structure look like?</li>
         </ul>
 
-        <a href="https://docs.google.com/presentation/d/145F-UnXUBswnz03WvZkliK7eLiLyhGY0bTrDJo8VUAk/mobilepresent?slide=id.g376427fc988_0_361" target="_blank">Slides (Website)</a> ·
-        <em>Recording (To be uploaded)</em>
+        <a href="https://docs.google.com/presentation/d/145F-UnXUBswnz03WvZkliK7eLiLyhGY0bTrDJo8VUAk/mobilepresent?slide=id.g376427fc988_0_361" target="_blank">Slides (Website)</a> · 
+        <a href="https://www.youtube.com/watch?v=MpbzMipStXk&pp=0gcJCU0KAYcqIYzv" target="_blank">Recording</a>
       </td>
       <td>
         <em>To be updated</em>
