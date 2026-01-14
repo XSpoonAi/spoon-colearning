@@ -8,34 +8,23 @@ nav_order: 4
 
 <style>
   .staff-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important; /* 固定每行两列 */
-    gap: 20px !important; /* 卡片间距 */
-    justify-items: center !important; /* 卡片居中 */
-    flex-wrap: unset !important;
-    margin-top: 1rem;
-    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 固定每行两列 */
+    gap: 20px; /* 卡片间距 */
+    justify-items: center; /* 卡片居中 */
   }
   .staff-card{
-    background:#fff !important;
-    padding:12px !important;
-    border-radius:12px !important;
-    box-shadow:0 1px 2px rgba(0,0,0,.06) !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    text-align: left !important;
-    font-size: inherit !important;
-    list-style: none !important;
+    background:#fff;
+    padding:12px;
+    border-radius:12px;
+    box-shadow:0 1px 2px rgba(0,0,0,.06);
   }
   .staff-card img{
-    width:100% !important;
-    height:160px !important;
-    object-fit:cover !important;
-    object-position: center !important;
-    border-radius:8px !important;
-    display:block !important;
-    margin-bottom: 0 !important;
-    box-shadow: none !important;
+    width:100%;
+    height:160px;
+    object-fit:cover;
+    border-radius:8px;
+    display:block;
   }
   .staff-card p{ margin:8px 0 0; }
   .staff-card a{ font-weight:600; }
@@ -43,7 +32,7 @@ nav_order: 4
 
 <hr>
 
-## Lecture Guests
+## Lecture Guests 
 
 <div class="staff-grid">
 
