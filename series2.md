@@ -156,6 +156,28 @@ nav_order: 4
   </td>
 </tr>
 
+<tr>
+  <td>October 17th</td>
+  <td>
+    <strong>Advances And Challenges In Foundation Agents - Building The Cognitive Engine</strong><br>
+    Bang Liu, University of Montreal (UdeM)<br><br>
+
+    <strong>Key Topics:</strong><br>
+    <ul>
+      <li>Foundation agents: architecture and core components</li>
+      <li>Building cognitive engines for autonomous decision-making</li>
+      <li>Challenges in scaling foundation agents to complex environments</li>
+      <li>Integration of perception, reasoning, and action in agent systems</li>
+      <li>Current limitations and future directions in foundation agent research</li>
+    </ul>
+
+    <a href="https://www.youtube.com/watch?v=tPfnFYgFNig" target="_blank">Recording</a>
+  </td>
+  <td>
+    <em>To be updated</em>
+  </td>
+</tr>
+
   </tbody>
 </table>
 </div>
