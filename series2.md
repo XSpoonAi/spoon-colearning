@@ -100,72 +100,72 @@ nav_order: 4
   </thead>
   <tbody>
 
-    <tr>
-      <td>August 29th</td>
-      <td>
-        <strong>Governance: LLM + AI Agents</strong><br>
-        Sabina (Yudi) Nong, Stanford<br><br>
+<tr>
+  <td>August 29th</td>
+  <td>
+    <strong>Governance: LLM + AI Agents</strong><br>
+    Sabina (Yudi) Nong, Stanford<br><br>
 
-        <strong>Key Points:</strong><br>
-        <ul>
-          <li>AI Governance & its Stakes</li>
-          <li>Why AI Agents Require a Distinct Governance Lens (Procedural vs. Predictive)</li>
-          <li>Developer Governance</li>
-          <li>Regulatory Governance</li>
-          <li>What does a good governance structure look like?</li>
-        </ul>
+    <strong>Key Points:</strong><br>
+    <ul>
+      <li>AI Governance & its Stakes</li>
+      <li>Why AI Agents Require a Distinct Governance Lens (Procedural vs. Predictive)</li>
+      <li>Developer Governance</li>
+      <li>Regulatory Governance</li>
+      <li>What does a good governance structure look like?</li>
+    </ul>
 
-        <a href="https://docs.google.com/presentation/d/145F-UnXUBswnz03WvZkliK7eLiLyhGY0bTrDJo8VUAk/mobilepresent?slide=id.g376427fc988_0_361" target="_blank">Slides (Website)</a> · 
-        <a href="https://www.youtube.com/watch?v=MpbzMipStXk&pp=0gcJCU0KAYcqIYzv" target="_blank">Recording</a>
-      </td>
-      <td>
-        <em>To be updated</em>
-      </td>
-    </tr>
+    <a href="https://docs.google.com/presentation/d/145F-UnXUBswnz03WvZkliK7eLiLyhGY0bTrDJo8VUAk/mobilepresent?slide=id.g376427fc988_0_361" target="_blank">Slides (Website)</a> · 
+    <a href="https://www.youtube.com/watch?v=MpbzMipStXk&pp=0gcJCU0KAYcqIYzv" target="_blank">Recording</a>
+  </td>
+  <td>
+    <em>To be updated</em>
+  </td>
+</tr>
 
-    <tr>
-      <td>September 3rd</td>
-      <td>
-        <strong>Interactive symbolic regression with co-design mechanism</strong><br>
-        Yuan Tian, ETH Zurich<br><br>
+<tr>
+  <td>September 3rd</td>
+  <td>
+    <strong>Interactive symbolic regression with co-design mechanism</strong><br>
+    Yuan Tian, ETH Zurich<br><br>
 
-        <strong>Key Topics:</strong><br>
-        <ul>
-          <li>Introduction to symbolic regression and its applications in scientific discovery</li>
-          <li>Challenges in traditional symbolic regression approaches</li>
-          <li>Co-design mechanism: integrating human expertise with machine learning</li>
-          <li>Interactive frameworks for collaborative model discovery</li>
-          <li>Case studies and practical applications in scientific computing</li>
-        </ul>
+    <strong>Key Topics:</strong><br>
+    <ul>
+      <li>Introduction to symbolic regression and its applications in scientific discovery</li>
+      <li>Challenges in traditional symbolic regression approaches</li>
+      <li>Co-design mechanism: integrating human expertise with machine learning</li>
+      <li>Interactive frameworks for collaborative model discovery</li>
+      <li>Case studies and practical applications in scientific computing</li>
+    </ul>
 
-        <a href="https://www.youtube.com/watch?v=Q-l6pVR3z-Y" target="_blank">Recording</a>
-      </td>
-      <td>
-        <em>To be updated</em>
-      </td>
-    </tr>
+    <a href="https://www.youtube.com/watch?v=Q-l6pVR3z-Y" target="_blank">Recording</a>
+  </td>
+  <td>
+    <em>To be updated</em>
+  </td>
+</tr>
 
-    <tr>
-      <td>October 3rd</td>
-      <td>
-        <strong>Rewiring the reward pathways</strong><br>
-        Kumar Shridhar, ETH Zürich<br><br>
+<tr>
+  <td>October 3rd</td>
+  <td>
+    <strong>Rewiring the reward pathways</strong><br>
+    Kumar Shridhar, ETH Zürich<br><br>
 
-        <strong>Key Topics:</strong><br>
-        <ul>
-          <li>Reward models in ML pipeline</li>
-          <li>Brittleness of current reward models</li>
-          <li>What to do when there is no clear reward (non verifiable rewards)</li>
-          <li>How to rewire reward pathways</li>
-          <li>A common reward model for both verifiable and non verifiable rewards</li>
-        </ul>
+    <strong>Key Topics:</strong><br>
+    <ul>
+      <li>Reward models in ML pipeline</li>
+      <li>Brittleness of current reward models</li>
+      <li>What to do when there is no clear reward (non verifiable rewards)</li>
+      <li>How to rewire reward pathways</li>
+      <li>A common reward model for both verifiable and non verifiable rewards</li>
+    </ul>
 
-        <a href="https://www.youtube.com/watch?v=x7wvhD28EMU" target="_blank">Recording</a>
-      </td>
-      <td>
-        <em>To be updated</em>
-      </td>
-    </tr>
+    <a href="https://www.youtube.com/watch?v=x7wvhD28EMU" target="_blank">Recording</a>
+  </td>
+  <td>
+    <em>To be updated</em>
+  </td>
+</tr>
 
   </tbody>
 </table>
